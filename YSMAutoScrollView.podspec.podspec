@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YSMAutoScrollView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Since the advertisement scroll view"
 
   s.description  = <<-DESC
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "ysmeng" => "49427823@163.com" }
   s.platform     = :ios, "7.1"
-  s.source       = { :git => "https://github.com/Cain1127/YSMAutoScrollView.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/Cain1127/YSMAutoScrollView.git", :tag => "1.0.1" }
   s.source_files  = "Classes/*"
 
 end
