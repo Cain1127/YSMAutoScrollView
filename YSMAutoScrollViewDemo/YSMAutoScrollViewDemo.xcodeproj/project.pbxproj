@@ -18,6 +18,9 @@
 		18124E9F1B0201530052E65B /* second.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18124E9C1B0201530052E65B /* second.jpg */; };
 		18124EA01B0201530052E65B /* three.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18124E9D1B0201530052E65B /* three.jpg */; };
 		18124EA41B02017A0052E65B /* QSAutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18124EA31B02017A0052E65B /* QSAutoScrollView.m */; };
+		1824C1331B09F2BB003E4A2D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1824C1301B09F2BB003E4A2D /* LICENSE */; };
+		1824C1341B09F2BB003E4A2D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1824C1311B09F2BB003E4A2D /* README.md */; };
+		1824C1351B09F2BB003E4A2D /* YSMAutoScrollView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1824C1321B09F2BB003E4A2D /* YSMAutoScrollView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		18124E9D1B0201530052E65B /* three.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = three.jpg; sourceTree = "<group>"; };
 		18124EA21B02017A0052E65B /* QSAutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSAutoScrollView.h; sourceTree = "<group>"; };
 		18124EA31B02017A0052E65B /* QSAutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSAutoScrollView.m; sourceTree = "<group>"; };
+		1824C1301B09F2BB003E4A2D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1824C1311B09F2BB003E4A2D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1824C1321B09F2BB003E4A2D /* YSMAutoScrollView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = YSMAutoScrollView.podspec; path = ../YSMAutoScrollView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 		18124E681B01FB9A0052E65B = {
 			isa = PBXGroup;
 			children = (
+				1824C12F1B09F28B003E4A2D /* CocoaPodData */,
 				18124EA11B02017A0052E65B /* Classes */,
 				18124E9A1B0201530052E65B /* Images */,
 				18124E731B01FB9A0052E65B /* YSMAutoScrollViewDemo */,
@@ -148,6 +155,16 @@
 				18124EA31B02017A0052E65B /* QSAutoScrollView.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		1824C12F1B09F28B003E4A2D /* CocoaPodData */ = {
+			isa = PBXGroup;
+			children = (
+				1824C1301B09F2BB003E4A2D /* LICENSE */,
+				1824C1311B09F2BB003E4A2D /* README.md */,
+				1824C1321B09F2BB003E4A2D /* YSMAutoScrollView.podspec */,
+			);
+			name = CocoaPodData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18124E9E1B0201530052E65B /* first.jpg in Resources */,
+				1824C1351B09F2BB003E4A2D /* YSMAutoScrollView.podspec in Resources */,
 				18124E801B01FB9A0052E65B /* Main.storyboard in Resources */,
 				18124EA01B0201530052E65B /* three.jpg in Resources */,
+				1824C1331B09F2BB003E4A2D /* LICENSE in Resources */,
 				18124E851B01FB9A0052E65B /* LaunchScreen.xib in Resources */,
 				18124E821B01FB9A0052E65B /* Images.xcassets in Resources */,
 				18124E9F1B0201530052E65B /* second.jpg in Resources */,
@@ -255,6 +274,7 @@
 			files = (
 				18124EA41B02017A0052E65B /* QSAutoScrollView.m in Sources */,
 				18124E7D1B01FB9A0052E65B /* ViewController.m in Sources */,
+				1824C1341B09F2BB003E4A2D /* README.md in Sources */,
 				18124E7A1B01FB9A0052E65B /* AppDelegate.m in Sources */,
 				18124E771B01FB9A0052E65B /* main.m in Sources */,
 			);
